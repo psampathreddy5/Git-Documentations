@@ -1,0 +1,23 @@
+=> In the git we have to know some topics before working in he git 
+----------------------
+a) COMMIT
+b) CLONE
+c) TRACKING/UNTRACKING
+d) BRANCH
+-----------------------
+=> above are the basic and important topics we need to understand.
+
+a). Commit :-
+-------------
+			Here when ever we store a code in any folder on on any system
+we give some meta data like author, created on , developer team , and some data
+and by this meta data we will know the details of this files.
+b). Clone :-
+-------------
+			Clone is nothin but a copy , like we need to copy entire code of another 
+developer and u need to work on that and we will update.
+c). Tracking/Untracking :-
+---------------------------
+			This will track the files thare are present in the repository
+
+		

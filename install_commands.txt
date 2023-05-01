@@ -1,0 +1,24 @@
+# Download git from this link # 
+-------------------------------
+https://git-scm.com/downloads
+
+
+
+# Config the github account through --global config #
+-----------------------------------------------------
+=> git congig --global user.name "sampath"
+=> git config --global user.email "sampath4721.sam@gmail.com"
+=> git config --list
+
+# add notepad++ to the gitbash #
+--------------------------------
+=> C:\Program Files\Notepad++ {add this url in environment variable path}
+=> notepad++.bash_profile {in this file add following line}
+	=> alias npp='notepad++.exe -multiinst -nosession' {by this command we can make shortcut  to notepad}
+
+# now make notepad++ editor as default to the git
+-------------------------------------------------
+=> git config --global core.editor "notepad++.exe -multiinst -nosession"
+=> git config --global --list
+=> git config --global -e
+

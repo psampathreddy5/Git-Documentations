@@ -1,0 +1,90 @@
+Commit
+------
+git commit
+git commit -v
+git commit -m "sam"
+
+
+clone
+-----
+git clone <url>
+git clone <url> <folder name>
+
+
+logs
+-----
+git log
+git log -p
+git log -3
+git log --oneline --all {display information of all commits from all branches}
+git log --pretty=online
+git log --pretty=short
+git log --pretty=full
+git log --pretty=fuller
+
+
+
+…or create a new repository on the command line
+echo "# sai" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/psampathreddy5/sai.git
+git push -u origin main
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/psampathreddy5/sai.git
+git branch -M main
+git push -u origin main
+
+
+Branching
+---------
+git branch <branch name>   	  {creates new branch}
+git checkout <branch name>    {switch to given branch}
+git checkout -b <branch name> {create and switch to new branch}
+git branch -d <branch name>   {delete the branch}
+git branch -a                 {display all branches}
+
+
+Merging
+-------
+git checkout to the branch in which you want to merge like u need to be in the main branch
+git merge <branch name> 
+git branch --merge {display the branches that are merged}
+git branch --no-merge {display the branches that are not merged}
+
+
+
+Perforce Merging Application 
+----------------------------
+=> download perform merge application {https://www.perforce.com/downloads/visual-merge-tool}
+=> configure p4merge application to git 
+	#########################################
+	diff tool
+	---------
+	git config --global diff.tool p4merge
+	git config --global difftool.p4merge.path "C:/Program Files/Perforce/p4merge.exe"
+	git config --global difftool.prompt false
+	merge tool
+	----------
+	git config --global merge.tool p4merge
+	git config --global mergetool.p4merge "C:/Program Files/Perforce/p4merge.exe"
+	git config --global mergetool.prompt false
+
+GIT Stashing
+------------
+git stash       {move changesin to a temporary zone, keep the files in a bucket as 1st comes last order}
+git stash list  {show the list of stashings}
+git stash apply {changes will be back from the bucket}
+git stash apply stash@{<number>}  {this will stash the selected one from the bucket}
+git stash drop  {stashing is droped from bucked}
+git stash pop   {stashing is applied and dropped}
+git stash -u    {by default git stash will only work with modified files, so to stash untrached files also the following command will work}
+
+
+
+Git Taging
+-----------
