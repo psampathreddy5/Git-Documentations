@@ -91,3 +91,5 @@ Git Taging
 git tag
 git tag -l
 git tag <tag name (v1.0)>
+git tag -a v3.1 {opens an editor teer give tags ingormation}
+git tag -a v3.1 -m "<give tag infirmation>"
