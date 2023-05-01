@@ -90,3 +90,4 @@ Git Taging
 -----------
 git tag
 git tag -l
+git tag <tag name (v1.0)>
