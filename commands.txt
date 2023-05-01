@@ -94,3 +94,6 @@ git tag <tag name (v1.0)>
 git tag -a v3.1 {opens an editor teer give tags ingormation}
 git tag -a v3.1 -m "<give tag infirmation>"
 git diff v1.0 v2.0
+git tag -d <tah version> {-d will deleate tag}
+git tag -m "< tah message>" <tag name> <9120d81 id of commit>
+
