@@ -89,3 +89,4 @@ git stash -u    {by default git stash will only work with modified files, so to 
 Git Taging
 -----------
 git tag
+git tag -l
